@@ -1,0 +1,135 @@
+/* İNDEX.PHP DOSYASINDA TANITIM KISMI */
+
+.divline4shadow {
+    width: 70px;
+    height: 80vh;
+    background-color: rgb(217, 0, 255);
+    filter: blur(300px);
+    padding: 50px;
+}
+
+
+.divline4left {
+    width: 30%;
+    height: 300px;
+    margin: 0 200px 0 0;
+    padding: 20px;
+}
+
+.divline4left h1,
+h3 {
+    color: #ffffff;
+}
+
+
+.spanline4ust {
+    width: 120px;
+    height: 55px;
+    color: rgb(217, 0, 255);
+    font: italic bold 50px comic sans ms;
+}
+
+.spanline4alt {
+    position: relative;
+    color: white;
+    font: italic 25px comic sans ms;
+}
+
+.divline4left span {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.divline4right {
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.divline4rightimage {
+    background-image: url('./../fotograflar/8.jpg');
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.divline4rightimage:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.play-icon::before {
+    content: '\25B7';
+    font: bold 30px fantasy;
+    border-radius: 100%;
+    border: 5px solid white;
+    padding: 15px 20px;
+    position: relative;
+    left: 43%;
+    top: 120px;
+    color: white;
+}
+
+.play-icon:hover {
+    text-shadow: 0 0 20px red;
+}
+
+
+
+.thumbnail {
+    cursor: pointer;
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: transparent;
+    margin: 100px auto;
+    padding: 20px;
+    border: none;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 58px;
+    font-weight: bold;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 8%;
+    left: 83%;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}

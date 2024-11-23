@@ -1,0 +1,152 @@
+ /* İNDEX.PHP DOSYASINDA HEADER KISMI */
+
+ .headercontainer {
+     width: 99%;
+     margin: auto;
+     overflow: hidden;
+ }
+
+ .section {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2em;
+     text-align: center;
+ }
+
+ .section:nth-child(odd) {
+     background: #f0f0f0;
+ }
+
+ .section:nth-child(even) {
+     background: #ddd;
+ }
+
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0, 0, 0);
+     background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ .modal-content {
+     background-color: #fefefe;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+ }
+
+ .iframeclose {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+ }
+
+ .iframeclose:hover,
+ .iframeclose:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ header {
+     background: rgba(0, 0, 0, 0.7);
+     padding: 5px 0;
+     color: #fff;
+     text-align: center;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+     z-index: 2;
+ }
+
+ header h1 {
+     margin: 0;
+     font-size: 2.5em;
+ }
+
+ nav div {
+     padding: 5px;
+     transition: 1s;
+ }
+
+ nav div a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav div:hover {
+     transform: scale(1.05);
+ }
+
+ nav div a:hover {
+     color: orangered;
+ }
+
+ nav ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ nav ul li {
+     display: inline;
+     margin: 0 15px;
+ }
+
+ nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+     transition: 0.3s;
+ }
+
+ nav ul li a:hover {
+     color: orangered;
+ }
+
+ .line1hero {
+     background-image: url('./../fotograflar/7.png');
+     background-repeat: no-repeat;
+     height: 80vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     background-size: cover;
+ }
+
+ .line1hero-content {
+     color: #fff;
+ }
+
+ .line1hero-content h2 {
+     font-size: 3em;
+     margin: 0;
+ }
+
+ .line1hero-content p {
+     font-size: 1.2em;
+     margin: 10px 0;
+ }
+
+ .btn {
+     background: #e91e63;
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 5px;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .btn:hover {
+     background: #c2185b;
+ }

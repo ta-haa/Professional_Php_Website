@@ -1,0 +1,33 @@
+/* İNDEX.PHP DOSYASINDA SİFRE UNUTTUM KISMI */
+
+.sifreunuttum {
+    position: fixed;
+    left: 50%;
+    top: 39%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.sifreunuttum h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+.sifreunuttum.active {
+    display: block;
+    background-color: white;
+}
+
+.sifreunuttum input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

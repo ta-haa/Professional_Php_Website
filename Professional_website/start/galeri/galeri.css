@@ -1,0 +1,77 @@
+/* İNDEX.PHP DOSYASINDA GALERİ KISMI */
+
+/* GALERİ KISMINDAKİ SHADOW */
+.divline8shadow {
+    width: 70px;
+    height: 30vh;
+    background-color: rgb(255, 149, 0);
+    filter: blur(300px);
+    padding: 50px;
+    box-shadow: 0 0 100px rgb(43, 255, 0);
+}
+
+
+.divline8txtust {
+    color: transparent;
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 35px;
+    -webkit-text-stroke: 1px white;
+}
+
+.divline8txtust h1 {
+    margin: 0;
+}
+
+.divline8txtalt {
+    padding: 0 2em;
+}
+
+#line8galeri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.line8galeri {
+    width: 100%;
+    max-width: 100px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.line8galeri:hover {
+    max-width: 400px;
+}
+
+#line8galeri .line8galeri:nth-child(1) {
+    background-image: url('./../fotograflar/24.jpg');
+}
+
+#line8galeri .line8galeri:nth-child(2) {
+    background-image: url('./../fotograflar/19.jpg');
+}
+
+#line8galeri .line8galeri:nth-child(3) {
+    background-image: url('./../fotograflar/20.jpg');
+}
+
+#line8galeri .line8galeri:nth-child(4) {
+    background-image: url('./../fotograflar/21.jpg');
+}
+
+#line8galeri .line8galeri:nth-child(5) {
+    background-image: url('./../fotograflar/22.jpg');
+}
+
+#line8galeri .line8galeri:nth-child(6) {
+    background-image: url('./../fotograflar/23.jpg');
+}

@@ -1,0 +1,105 @@
+/* İNDEX.PHP DOSYASINDA EKİBİMİZ KISMI */
+
+.txtline5 {
+    width: 500px;
+    height: 90px;
+    font: italic bold 50px tahoma;
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+    color: white;
+}
+
+.divline5 {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+.divline5img1 {
+    background-image: url('./../fotograflar/11.jpg');
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 250px;
+    height: 350px;
+    margin: 0 50px 0 0;
+}
+
+.divline5img1:hover {
+    transform: scale(1.1);
+}
+
+.divline5img2 {
+    background-image: url('./../fotograflar/12.jpg');
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 250px;
+    height: 350px;
+    margin: 0 50px 0 0;
+}
+
+.divline5img2:hover {
+    transform: scale(1.1);
+}
+
+.divline5img3 {
+    background-image: url('./../fotograflar/13.jpg');
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 250px;
+    height: 350px;
+    margin: 0 50px 0 0;
+}
+
+.divline5img3:hover {
+    transform: scale(1.1);
+}
+
+.divline5img4 {
+    background-image: url('./../fotograflar/14.jpg');
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 250px;
+    height: 350px;
+    margin: 0 50px 0 0;
+}
+
+.divline5img4:hover {
+    transform: scale(1.1);
+}
+
+
+
+.divline5txt {
+    position: relative;
+    font: 30px arial;
+    left: 0%;
+    top: 110%;
+    color: rgb(255, 255, 255);
+}

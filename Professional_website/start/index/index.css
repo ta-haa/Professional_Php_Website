@@ -1,0 +1,62 @@
+/* İNDEX.PHP DOSYASINDA İNDEX KISMI */
+/* İNDEX.PHP DOSYASI ÇEKİYOR */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    background-color: #1e1e1e;
+}
+
+.fade-header,
+.fade-p1,
+.fade-p2,
+.fade-p3,
+.fade-p4,
+.fade-p5,
+.fade-p6,
+.fade-p7,
+.fade-p8,
+.fade-p9,
+.fade-p10 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.fade-header.show,
+.fade-p1.show,
+.fade-p2.show,
+.fade-p3.show,
+.fade-p4.show,
+.fade-p5.show,
+.fade-p6.show,
+.fade-p7.show,
+.fade-p8.show,
+.fade-p9.show,
+.fade-p10.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.scroll-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: red;
+    display: none;
+}
+
+section {
+    padding: 60px 0;
+}

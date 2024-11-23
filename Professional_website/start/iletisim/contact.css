@@ -1,0 +1,42 @@
+/* İNDEX.PHP DOSYASINDA İLETİŞİM KISMI */
+
+.line9container {
+    text-align: center;
+    color: white;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+    color: white;
+
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact-form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+#contact-form button {
+    background: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#contact-form button:hover {
+    background: #c2185b;
+}

@@ -1,0 +1,46 @@
+/* İNDEX.PHP DOSYASINDA SSS KISMI */
+
+.line10sss {
+    color: white;
+}
+
+
+.line10sss h1 {
+    text-align: center
+}
+
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+
+.faq-item {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.faq-item:hover {
+    background-color: #1e1e1e;
+    color: white;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.faq-item h2:hover,
+p:hover {
+    color: white;
+}
+
+.faq-question {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+
+.faq-answer {
+    color: #666;
+}

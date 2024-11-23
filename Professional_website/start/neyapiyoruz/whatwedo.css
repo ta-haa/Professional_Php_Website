@@ -1,0 +1,141 @@
+/* İNDEX.PHP DOSYASINDA NE YAPIYORUZ KISMI */
+
+/* NE YAPIYORUZ KISMINDAKİ SHADOW */
+
+.divline7shadow {
+    width: 70px;
+    height: 30vh;
+    background-color: rgb(43, 255, 0);
+    filter: blur(300px);
+    padding: 50px;
+    box-shadow: 0 0 100px rgb(43, 255, 0);
+}
+
+.divline7txtust {
+    color: #fff;
+    text-align: center;
+}
+
+.divline7txtust h1 {
+    margin: 0;
+}
+
+.divline7txtalt {
+    padding: 0 2em;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.service {
+    width: 100%;
+    max-width: 300px;
+    perspective: 1000px;
+    padding: 0 30px;
+}
+
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.flip-card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #00000088;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    padding: 0.7em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.number {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #00000088;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.text {
+    width: 70%;
+    position: relative;
+    top: -4%;
+    left: 3%;
+}
+
+.text p {
+    width: 120%;
+    position: relative;
+    left: -23%;
+    font-size: 1.1em;
+}
+
+.flip-card-back {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.service:nth-child(1) .flip-card-back {
+    background-image: url('./../fotograflar/24.jpg');
+}
+
+.service:nth-child(2) .flip-card-back {
+    background-image: url('./../fotograflar/19.jpg');
+}
+
+.service:nth-child(3) .flip-card-back {
+    background-image: url('./../fotograflar/20.jpg');
+}
+
+.service:nth-child(4) .flip-card-back {
+    background-image: url('./../fotograflar/21.jpg');
+}
+
+.service:nth-child(5) .flip-card-back {
+    background-image: url('./../fotograflar/22.jpg');
+}
+
+.service:nth-child(6) .flip-card-back {
+    background-image: url('./../fotograflar/23.jpg');
+}

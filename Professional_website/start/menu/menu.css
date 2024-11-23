@@ -1,0 +1,113 @@
+/* İNDEX.PHP DOSYASINDA MENU KISMI */
+
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 100px black;
+    border-radius: 20px;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease-in-out;
+}
+
+#slide1 {
+    background-image: url('./../fotograflar/15.jpg');
+    transition: 1s;
+    cursor: pointer;
+}
+
+#slide1:hover {
+    transform: scale(1.2);
+}
+
+#slide2 {
+    background-image: url('./../fotograflar/16.jpg');
+    transition: 1s;
+    cursor: pointer;
+}
+
+#slide2:hover {
+    transform: scale(1.2);
+}
+
+#slide3 {
+    background-image: url('./../fotograflar/17.jpg');
+    transition: 1s;
+    cursor: pointer;
+}
+
+#slide3:hover {
+    transform: scale(1.2);
+}
+
+#slide4 {
+    background-image: url('./../fotograflar/18.jpg');
+    transition: 1s;
+    cursor: pointer;
+}
+
+#slide4:hover {
+    transform: scale(1.2);
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 100;
+}
+
+.prev {
+    left: 10px;
+}
+
+.prev:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.next {
+    right: 10px;
+}
+
+.next:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.dot-container {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    z-index: 100;
+}
+
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(38, 255, 0);
+}

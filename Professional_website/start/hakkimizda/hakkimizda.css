@@ -1,0 +1,41 @@
+.txtline3 {
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: monospace Black;
+    font-style: italic;
+    border-radius: 50px;
+    box-shadow: 0 4px 150px black;
+    padding: 20px 0 170px 0;
+}
+
+.txtline3 h1 {
+    color: rgb(255, 136, 0);
+}
+
+.txtline3 h3 {
+    color: rgb(255, 255, 255);
+}
+
+
+.btnline3 {
+    text-decoration: none;
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.4s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.btnline3:hover {
+    background-color: white;
+    transform: scale(1.05);
+    color: black;
+}
